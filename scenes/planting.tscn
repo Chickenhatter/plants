@@ -1,0 +1,98 @@
+[gd_scene format=3 uid="uid://fk6e7xhh85s"]
+
+[ext_resource type="Script" uid="uid://bvbfkhb15svv0" path="res://code/summon.gd" id="1_m4bn8"]
+[ext_resource type="Script" uid="uid://by74oxqxva314" path="res://code/gardener.gd" id="1_yqlkl"]
+[ext_resource type="Texture2D" uid="uid://clqjvd54rarer" path="res://icon.svg" id="3_0u8u0"]
+[ext_resource type="Script" uid="uid://cuglktjf1psw6" path="res://code/plant_1.gd" id="3_n0q0x"]
+[ext_resource type="Script" uid="uid://dyff6d8m3pjx4" path="res://code/plant_2.gd" id="4_haov4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rjskk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m4bn8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n0q0x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yqlkl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_haov4"]
+
+[node name="Node2D" type="Node2D" unique_id=119280158]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1454886088]
+
+[node name="character" type="Node2D" parent="Node2D" unique_id=393652341]
+
+[node name="Gardener" type="CharacterBody2D" parent="Node2D/character" unique_id=13888977]
+script = ExtResource("1_yqlkl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/character/Gardener" unique_id=1285487252]
+shape = SubResource("RectangleShape2D_rjskk")
+
+[node name="Camera2D" type="Camera2D" parent="Node2D/character/Gardener" unique_id=1705831507]
+zoom = Vector2(5, 5)
+
+[node name="place" type="Node2D" parent="Node2D" unique_id=1029829069]
+position = Vector2(-52, 9)
+
+[node name="Node2D" type="Node2D" parent="Node2D/place" unique_id=1036823222]
+script = ExtResource("1_m4bn8")
+
+[node name="water_refill" type="Area2D" parent="Node2D/place/Node2D" unique_id=577857242]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/place/Node2D/water_refill" unique_id=1513169143]
+shape = SubResource("RectangleShape2D_m4bn8")
+
+[node name="Icon" type="Sprite2D" parent="Node2D/place/Node2D/water_refill" unique_id=1380895838]
+position = Vector2(-4.4703484e-07, 1.1920929e-07)
+scale = Vector2(0.15625, 0.15625)
+texture = ExtResource("3_0u8u0")
+
+[node name="Node2D2" type="Node2D" parent="Node2D/place" unique_id=409716333]
+position = Vector2(111, 4)
+
+[node name="nitrogen_refill" type="Area2D" parent="Node2D/place/Node2D2" unique_id=982338720]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/place/Node2D2/nitrogen_refill" unique_id=1598756998]
+shape = SubResource("RectangleShape2D_n0q0x")
+
+[node name="Icon" type="Sprite2D" parent="Node2D/place/Node2D2/nitrogen_refill" unique_id=679765561]
+position = Vector2(-4.4703484e-07, 1.1920929e-07)
+scale = Vector2(0.15625, 0.15625)
+texture = ExtResource("3_0u8u0")
+
+[node name="plant" type="Node2D" parent="Node2D" unique_id=950171415]
+position = Vector2(0, 64)
+
+[node name="Plant1" type="Node2D" parent="Node2D/plant" unique_id=1266826872]
+position = Vector2(-51, -156)
+script = ExtResource("3_n0q0x")
+
+[node name="Plant1" type="Area2D" parent="Node2D/plant/Plant1" unique_id=1395251831]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/plant/Plant1/Plant1" unique_id=66516363]
+shape = SubResource("RectangleShape2D_yqlkl")
+
+[node name="Icon" type="Sprite2D" parent="Node2D/plant/Plant1" unique_id=1187602606]
+position = Vector2(6.556511e-07, 3.8146973e-06)
+scale = Vector2(0.15624997, 0.15625001)
+texture = ExtResource("3_0u8u0")
+
+[node name="Plant2" type="Node2D" parent="Node2D/plant" unique_id=1092064800]
+position = Vector2(67, -154)
+script = ExtResource("4_haov4")
+
+[node name="Plant2" type="Area2D" parent="Node2D/plant/Plant2" unique_id=983791519]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/plant/Plant2/Plant2" unique_id=520031219]
+shape = SubResource("RectangleShape2D_haov4")
+
+[node name="box" type="Node2D" parent="Node2D" unique_id=1650328580]
+
+[connection signal="body_entered" from="Node2D/place/Node2D/water_refill" to="Node2D/place/Node2D" method="_on_water_refill_body_entered"]
+[connection signal="body_exited" from="Node2D/place/Node2D/water_refill" to="Node2D/place/Node2D" method="_on_water_refill_body_exited"]
+[connection signal="body_entered" from="Node2D/place/Node2D2/nitrogen_refill" to="Node2D/place/Node2D" method="_on_nitrogen_refill_body_entered"]
+[connection signal="body_exited" from="Node2D/place/Node2D2/nitrogen_refill" to="Node2D/place/Node2D" method="_on_nitrogen_refill_body_exited"]
+[connection signal="body_entered" from="Node2D/plant/Plant1/Plant1" to="Node2D/plant/Plant1" method="_on_plant_1_body_entered"]
+[connection signal="body_exited" from="Node2D/plant/Plant1/Plant1" to="Node2D/plant/Plant1" method="_on_plant_1_body_exited"]
+[connection signal="body_entered" from="Node2D/plant/Plant2/Plant2" to="Node2D/plant/Plant2" method="_on_plant_2_body_entered"]
+[connection signal="body_exited" from="Node2D/plant/Plant2/Plant2" to="Node2D/plant/Plant2" method="_on_plant_2_body_exited"]

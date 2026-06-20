@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bs1hece6h1frr"]
+
+[ext_resource type="Script" uid="uid://c1402u8cpkb27" path="res://code/nitrogen.gd" id="1_qb5yb"]
+[ext_resource type="Texture2D" uid="uid://clqjvd54rarer" path="res://icon.svg" id="2_er4b3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_er4b3"]
+
+[node name="nitrogen" type="Node2D" unique_id=1263656106]
+script = ExtResource("1_qb5yb")
+
+[node name="Nitrogen_pickup" type="Area2D" parent="." unique_id=441789837]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Nitrogen_pickup" unique_id=1904836272]
+shape = SubResource("RectangleShape2D_er4b3")
+
+[node name="Icon" type="Sprite2D" parent="Nitrogen_pickup" unique_id=159773164]
+position = Vector2(0, 9.536743e-07)
+scale = Vector2(0.15625, 0.15625)
+texture = ExtResource("2_er4b3")
+
+[connection signal="body_entered" from="Nitrogen_pickup" to="." method="_on_nitrogen_pickup_body_entered"]
+[connection signal="body_exited" from="Nitrogen_pickup" to="." method="_on_nitrogen_pickup_body_exited"]
