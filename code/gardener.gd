@@ -15,6 +15,6 @@ func _physics_process(delta: float) -> void:
 		movement.x -= 1
 	if Input.is_action_pressed('ui_d'):
 		movement.x += 1
-	velocity = movement * 100
+	velocity = movement * 50
 	global.character_position = $".".global_position
 	move_and_slide()
