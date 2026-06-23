@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cp1hskc3i5mif"
-path="res://.godot/imported/pot.png-62eff7dca8403d02a61a5a45caf15e6e.ctex"
+uid="uid://oacjgiaf8r0j"
+path="res://.godot/imported/pixil-frame-0(12).png-c70061678c4b2810a3da2c914c7bd076.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pot.png"
-dest_files=["res://.godot/imported/pot.png-62eff7dca8403d02a61a5a45caf15e6e.ctex"]
+source_file="res://assets/water/pixil-frame-0(12).png"
+dest_files=["res://.godot/imported/pixil-frame-0(12).png-c70061678c4b2810a3da2c914c7bd076.ctex"]
 
 [params]
 

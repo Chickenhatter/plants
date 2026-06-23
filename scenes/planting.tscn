@@ -4,15 +4,59 @@
 [ext_resource type="Script" uid="uid://by74oxqxva314" path="res://code/gardener.gd" id="1_yqlkl"]
 [ext_resource type="Texture2D" uid="uid://clqjvd54rarer" path="res://icon.svg" id="3_0u8u0"]
 [ext_resource type="Script" uid="uid://cuglktjf1psw6" path="res://code/plant_1.gd" id="3_n0q0x"]
+[ext_resource type="Texture2D" uid="uid://b8svuluhh2wp6" path="res://assets/water/pixil-frame-0(8).png" id="4_6ka5p"]
 [ext_resource type="Script" uid="uid://dyff6d8m3pjx4" path="res://code/plant_2.gd" id="4_haov4"]
-[ext_resource type="Texture2D" uid="uid://cp1hskc3i5mif" path="res://assets/pot.png" id="5_da11n"]
+[ext_resource type="Texture2D" uid="uid://s06hqeh6sl3c" path="res://assets/water/pixil-frame-0(9).png" id="5_07b6f"]
 [ext_resource type="Texture2D" uid="uid://cerxqa04ls8n4" path="res://assets/red.png" id="6_8qkjy"]
 [ext_resource type="Texture2D" uid="uid://cnotppifeb3yc" path="res://assets/white.png" id="6_da11n"]
+[ext_resource type="Texture2D" uid="uid://ce18sii6kcwcs" path="res://assets/water/pixil-frame-0(10).png" id="6_jxdym"]
 [ext_resource type="Script" uid="uid://drkqyxqqghodh" path="res://scenes/plant_3.gd" id="6_upcro"]
+[ext_resource type="Texture2D" uid="uid://drqdybko5u4bd" path="res://assets/water/pixil-frame-0(11).png" id="7_dh3n4"]
+[ext_resource type="Texture2D" uid="uid://oacjgiaf8r0j" path="res://assets/water/pixil-frame-0(12).png" id="8_83xjp"]
+[ext_resource type="Texture2D" uid="uid://6yb2fd726qro" path="res://assets/plant/pixil-frame-0(4).png" id="8_obu1i"]
+[ext_resource type="Texture2D" uid="uid://df7en27w3qdny" path="res://assets/water/pixil-frame-0(7).png" id="9_07b6f"]
+[ext_resource type="Texture2D" uid="uid://3vci7tbtek6q" path="res://assets/plant/pixil-frame-0(5).png" id="10_8fjue"]
+[ext_resource type="Texture2D" uid="uid://dei5x8u60jhn4" path="res://assets/plant/pot.png" id="12_oorq7"]
+[ext_resource type="Texture2D" uid="uid://bd65bxlc1vx7d" path="res://assets/plant/pixil-frame-0(6).png" id="12_vdpk5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rjskk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m4bn8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7xrwy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_6ka5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6ka5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_07b6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_jxdym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_dh3n4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_jxdym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_83xjp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_07b6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6ka5p")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n0q0x"]
 
@@ -37,6 +81,7 @@ texture = ExtResource("3_0u8u0")
 position = Vector2(-52, 9)
 
 [node name="Node2D" type="Node2D" parent="Node2D/place" unique_id=1036823222]
+position = Vector2(-44, 75)
 script = ExtResource("1_m4bn8")
 
 [node name="water_refill" type="Area2D" parent="Node2D/place/Node2D" unique_id=577857242]
@@ -44,10 +89,14 @@ script = ExtResource("1_m4bn8")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/place/Node2D/water_refill" unique_id=1513169143]
 shape = SubResource("RectangleShape2D_m4bn8")
 
-[node name="Icon" type="Sprite2D" parent="Node2D/place/Node2D/water_refill" unique_id=1380895838]
-position = Vector2(-4.4703484e-07, 1.1920929e-07)
-scale = Vector2(0.15625, 0.15625)
-texture = ExtResource("3_0u8u0")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node2D/place/Node2D/water_refill" unique_id=562951997]
+sprite_frames = SubResource("SpriteFrames_7xrwy")
+autoplay = "default"
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D/place/Node2D/water_refill" unique_id=1543326516]
+z_index = -1
+position = Vector2(-7, 0)
+texture = ExtResource("9_07b6f")
 
 [node name="Node2D2" type="Node2D" parent="Node2D/place" unique_id=409716333]
 position = Vector2(111, 4)
@@ -79,7 +128,7 @@ polygon = PackedVector2Array(-10, -6, -9, -6, -9, -7, -8, -7, -6, -7, -6, -8, 6,
 [node name="Icon" type="Sprite2D" parent="Node2D/plant/Plant1" unique_id=1187602606]
 position = Vector2(0.99999994, 3.8146973e-06)
 scale = Vector2(0.7, 0.7)
-texture = ExtResource("5_da11n")
+texture = ExtResource("12_oorq7")
 
 [node name="Node2D" type="Node2D" parent="Node2D/plant/Plant1" unique_id=1580725470]
 
@@ -112,6 +161,11 @@ position = Vector2(-0.1524298, -5.5000057)
 scale = Vector2(0.0040846756, 0.014925365)
 texture = ExtResource("6_da11n")
 
+[node name="Sprite2D" type="Sprite2D" parent="Node2D/plant/Plant1" unique_id=1207824337]
+position = Vector2(-5.9604645e-08, -10.000001)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("8_obu1i")
+
 [node name="Plant2" type="Node2D" parent="Node2D/plant" unique_id=471260097]
 position = Vector2(-258, -68)
 scale = Vector2(1.5, 1.5)
@@ -126,7 +180,7 @@ polygon = PackedVector2Array(-10, -6, -9, -6, -9, -7, -8, -7, -6, -7, -6, -8, 6,
 [node name="Icon" type="Sprite2D" parent="Node2D/plant/Plant2" unique_id=1819736240]
 position = Vector2(0.99999994, 3.8146973e-06)
 scale = Vector2(0.7, 0.7)
-texture = ExtResource("5_da11n")
+texture = ExtResource("12_oorq7")
 
 [node name="Node2D" type="Node2D" parent="Node2D/plant/Plant2" unique_id=580478644]
 
@@ -159,6 +213,10 @@ position = Vector2(-0.1524298, -5.5000057)
 scale = Vector2(0.0040846756, 0.014925365)
 texture = ExtResource("6_da11n")
 
+[node name="Sprite2D" type="Sprite2D" parent="Node2D/plant/Plant2" unique_id=283512895]
+position = Vector2(2, -17.333334)
+texture = ExtResource("10_8fjue")
+
 [node name="Plant3" type="Node2D" parent="Node2D/plant" unique_id=1277133985]
 position = Vector2(255, -71)
 scale = Vector2(1.5, 1.5)
@@ -173,7 +231,7 @@ polygon = PackedVector2Array(-10, -6, -9, -6, -9, -7, -8, -7, -6, -7, -6, -8, 6,
 [node name="Icon" type="Sprite2D" parent="Node2D/plant/Plant3" unique_id=1847901028]
 position = Vector2(0.99999994, 3.8146973e-06)
 scale = Vector2(0.7, 0.7)
-texture = ExtResource("5_da11n")
+texture = ExtResource("12_oorq7")
 
 [node name="Node2D" type="Node2D" parent="Node2D/plant/Plant3" unique_id=168228391]
 
@@ -205,6 +263,10 @@ self_modulate = Color(0.4349967, 0.561118, 0.86130524, 1)
 position = Vector2(-0.1524298, -5.5000057)
 scale = Vector2(0.0040846756, 0.014925365)
 texture = ExtResource("6_da11n")
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D/plant/Plant3" unique_id=1985909004]
+position = Vector2(0, -9.333334)
+texture = ExtResource("12_vdpk5")
 
 [node name="box" type="Node2D" parent="Node2D" unique_id=1650328580]
 
