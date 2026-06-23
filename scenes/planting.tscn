@@ -67,6 +67,7 @@ position = Vector2(0, 64)
 
 [node name="Plant1" type="Node2D" parent="Node2D/plant" unique_id=1266826872]
 position = Vector2(0, -197)
+scale = Vector2(1.5, 1.5)
 script = ExtResource("3_n0q0x")
 
 [node name="Plant1" type="Area2D" parent="Node2D/plant/Plant1" unique_id=1395251831]
@@ -112,12 +113,13 @@ scale = Vector2(0.0040846756, 0.014925365)
 texture = ExtResource("6_da11n")
 
 [node name="Plant2" type="Node2D" parent="Node2D/plant" unique_id=471260097]
-position = Vector2(0, -197)
+position = Vector2(-258, -68)
+scale = Vector2(1.5, 1.5)
 script = ExtResource("4_haov4")
 
-[node name="Plant1" type="Area2D" parent="Node2D/plant/Plant2" unique_id=850811213]
+[node name="Plant2" type="Area2D" parent="Node2D/plant/Plant2" unique_id=850811213]
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Node2D/plant/Plant2/Plant1" unique_id=806257815]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Node2D/plant/Plant2/Plant2" unique_id=806257815]
 z_index = -10
 polygon = PackedVector2Array(-10, -6, -9, -6, -9, -7, -8, -7, -6, -7, -6, -8, 6, -8, 6, -7, 8, -7, 8, -6, 10, -6, 10, -3, 9, -3, 9, 0, 8, 0, 8, 5, 7, 5, 7, 11, -7, 11, -7, 8, -8, 8, -8, 5, -9, 5, -9, -3, -10, -3)
 
@@ -158,12 +160,13 @@ scale = Vector2(0.0040846756, 0.014925365)
 texture = ExtResource("6_da11n")
 
 [node name="Plant3" type="Node2D" parent="Node2D/plant" unique_id=1277133985]
-position = Vector2(0, -197)
+position = Vector2(255, -71)
+scale = Vector2(1.5, 1.5)
 script = ExtResource("6_upcro")
 
-[node name="Plant1" type="Area2D" parent="Node2D/plant/Plant3" unique_id=1679480001]
+[node name="Plant3" type="Area2D" parent="Node2D/plant/Plant3" unique_id=1679480001]
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Node2D/plant/Plant3/Plant1" unique_id=572706176]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Node2D/plant/Plant3/Plant3" unique_id=572706176]
 z_index = -10
 polygon = PackedVector2Array(-10, -6, -9, -6, -9, -7, -8, -7, -6, -7, -6, -8, 6, -8, 6, -7, 8, -7, 8, -6, 10, -6, 10, -3, 9, -3, 9, 0, 8, 0, 8, 5, 7, 5, 7, 11, -7, 11, -7, 8, -8, 8, -8, 5, -9, 5, -9, -3, -10, -3)
 
@@ -214,7 +217,7 @@ zoom = Vector2(2, 2)
 [connection signal="body_exited" from="Node2D/place/Node2D2/nitrogen_refill" to="Node2D/place/Node2D" method="_on_nitrogen_refill_body_exited"]
 [connection signal="body_entered" from="Node2D/plant/Plant1/Plant1" to="Node2D/plant/Plant1" method="_on_plant_1_body_entered"]
 [connection signal="body_exited" from="Node2D/plant/Plant1/Plant1" to="Node2D/plant/Plant1" method="_on_plant_1_body_exited"]
-[connection signal="body_entered" from="Node2D/plant/Plant2/Plant1" to="Node2D/plant/Plant2" method="_on_plant_1_body_entered"]
-[connection signal="body_exited" from="Node2D/plant/Plant2/Plant1" to="Node2D/plant/Plant2" method="_on_plant_1_body_exited"]
-[connection signal="body_entered" from="Node2D/plant/Plant3/Plant1" to="Node2D/plant/Plant3" method="_on_plant_1_body_entered"]
-[connection signal="body_exited" from="Node2D/plant/Plant3/Plant1" to="Node2D/plant/Plant3" method="_on_plant_1_body_exited"]
+[connection signal="body_entered" from="Node2D/plant/Plant2/Plant2" to="Node2D/plant/Plant2" method="_on_plant_2_body_entered"]
+[connection signal="body_exited" from="Node2D/plant/Plant2/Plant2" to="Node2D/plant/Plant2" method="_on_plant_2_body_exited"]
+[connection signal="body_entered" from="Node2D/plant/Plant3/Plant3" to="Node2D/plant/Plant3" method="_on_plant_3_body_entered"]
+[connection signal="body_exited" from="Node2D/plant/Plant3/Plant3" to="Node2D/plant/Plant3" method="_on_plant_3_body_exited"]
