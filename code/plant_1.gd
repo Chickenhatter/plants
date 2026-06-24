@@ -7,28 +7,35 @@ func _ready() -> void:
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta: float) -> void:
+func _process(delta: float) -> void:
+	global.timer += delta
 	if gardener_in == true:
 		if Input.is_action_just_pressed('ui_m'):
 			if global.player_is_holding == "Water":
-				water_level += 40
 				if water_level <= 0:
-					water_level = 80
+					water_level = 40
+				water_level += 40
 	if gardener_in == true:
 		if Input.is_action_just_pressed('ui_m'):
 			if global.player_is_holding == "Nitrogen":
-				nitrogen_level += 40
 				if nitrogen_level <= 0:
-					nitrogen_level = 80
+					nitrogen_level = 40
+				nitrogen_level += 40
 	if gardener_in == true:
 		if Input.is_action_just_pressed('ui_m'):
 			global.player_is_holding = "None"
-	nitrogen_level -= 0.04
-	water_level -= 0.04
+	nitrogen_level -= global.global_speed
+	water_level -= global.global_speed
+	if nitrogen_level > 100:
+		nitrogen_level = 100
+		$Node2D/health.scale.y -= 0.01
 	if nitrogen_level > 0:
 		$Node2D/nitrogen.scale.y = nitrogen_level/100
 	else:
 		$Node2D/health.scale.y -= 0.00015
+	if water_level > 100:
+		water_level = 100
+		$Node2D/health.scale.y -= 0.01
 	if water_level > 0:
 		$Node2D/water.scale.y = water_level/100
 	else:

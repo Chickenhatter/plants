@@ -17,21 +17,24 @@ func _process(delta: float) -> void:
 		if char_in_water == true:
 			if global.player_is_holding == "None":
 				allow = false
+				global.player_is_holding = "Water"
 				global.player_move = false
-				await get_tree().create_timer(1).timeout
+				$water_refill/AnimatedSprite2D.play("default")
+				await get_tree().create_timer(2).timeout
 				global.player_move = true
 				water_summoning()
-				global.player_is_holding = "Water"
 				await get_tree().create_timer(0.5).timeout
 				allow = true
 		if char_in_nitrogen == true:
 			if global.player_is_holding == "None":
 				allow = false
+				global.player_is_holding = "Nitrogen"
 				global.player_move = false
-				await get_tree().create_timer(1).timeout
+				$"../Node2D2/nitrogen_refill/Node2D/composter".play('default')
+				$"../Node2D2/nitrogen_refill/Node2D/AnimatedSprite2D2".play('default')
+				await get_tree().create_timer(2).timeout
 				nitrogen_summoning()
 				global.player_move = true
-				global.player_is_holding = "Nitrogen"
 				await get_tree().create_timer(0.5).timeout
 				allow = true
 			

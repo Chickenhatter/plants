@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://h8m3ocku3f24"]
 
 [ext_resource type="Script" uid="uid://bsnx4w4kk43d6" path="res://code/water.gd" id="1_d5q4r"]
-[ext_resource type="Texture2D" uid="uid://clqjvd54rarer" path="res://icon.svg" id="2_3q86v"]
+[ext_resource type="Texture2D" uid="uid://df7en27w3qdny" path="res://assets/water/pixil-frame-0(7).png" id="2_3q86v"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d5q4r"]
 
@@ -14,8 +14,8 @@ script = ExtResource("1_d5q4r")
 shape = SubResource("RectangleShape2D_d5q4r")
 
 [node name="Icon" type="Sprite2D" parent="Water_pickup" unique_id=1952873876]
-position = Vector2(0, 9.536743e-07)
-scale = Vector2(0.15625, 0.15625)
+position = Vector2(2, -2)
+scale = Vector2(1.3447919, 1.3447917)
 texture = ExtResource("2_3q86v")
 
 [connection signal="body_entered" from="Water_pickup" to="." method="_on_water_pickup_body_entered"]
