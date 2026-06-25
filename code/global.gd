@@ -5,6 +5,7 @@ var player_in_plant = false
 var player_move = true
 var global_speed = 0.03
 var timer = 0
+var down = false
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.

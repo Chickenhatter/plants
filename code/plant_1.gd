@@ -41,7 +41,7 @@ func _process(delta: float) -> void:
 	else:
 		$Node2D/health.scale.y -= 0.00015
 	if $Node2D/health.scale.y < 0:
-		pass
+		global.down = true
 
 func _on_plant_1_body_entered(body: Node2D) -> void:
 	if body.name == "Gardener":

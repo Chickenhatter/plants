@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c3gptjqijfy1e"]
 
 [ext_resource type="Script" uid="uid://c58xu4set6yoy" path="res://code/end.gd" id="1_mwn6m"]
+[ext_resource type="Texture2D" uid="uid://6tx4k2hpfw21" path="res://assets/back/pixil-frame-0 (6).png" id="2_3d26k"]
 
 [node name="Node2D" type="Node2D" unique_id=405920539]
 
@@ -17,4 +18,4035 @@ offset_bottom = 305.0
 text = "And that is why us coders are not supposed to touch plants, you killed a plant after"
 
 [node name="Camera2D" type="Camera2D" parent="Node2D" unique_id=1591111680]
+z_index = 4096
 zoom = Vector2(3, 3)
+
+[node name="slide" type="Node2D" parent="." unique_id=642473574]
+position = Vector2(-192, -108)
+scale = Vector2(0.333, 0.333)
+
+[node name="slide" type="Node2D" parent="slide" unique_id=815384358]
+position = Vector2(38, -600)
+scale = Vector2(2, 2)
+
+[node name="Node2D2" type="Node2D" parent="slide/slide" unique_id=786094155]
+scale = Vector2(3, 3)
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D2" unique_id=827237711]
+position = Vector2(417.33334, 216.33334)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D2/Node2D" unique_id=865526161]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D" unique_id=1577034424]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D" unique_id=465462343]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D" unique_id=1491349975]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D" unique_id=456509605]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D" unique_id=303112415]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D" unique_id=1423601337]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D" unique_id=320480550]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D" unique_id=255441626]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D" unique_id=1058205657]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D" unique_id=1794498139]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D" unique_id=1487910546]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D2/Node2D" unique_id=1466696353]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D2" unique_id=1266549684]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D2" unique_id=1841142537]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D2" unique_id=421061730]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D2" unique_id=444854178]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D2" unique_id=1108071586]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D2" unique_id=111995494]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D2" unique_id=202114818]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D2" unique_id=1907402943]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D2" unique_id=1653120442]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D2" unique_id=1724723759]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D2" unique_id=1582879181]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D2/Node2D" unique_id=560721081]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D3" unique_id=1261034539]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D3" unique_id=1195173560]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D3" unique_id=1045136770]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D3" unique_id=211654891]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D3" unique_id=941674093]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D3" unique_id=927583472]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D3" unique_id=1549944589]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D3" unique_id=1983894948]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D3" unique_id=1802443397]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D3" unique_id=1497667219]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D3" unique_id=862706485]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D2/Node2D" unique_id=282952470]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D4" unique_id=770373507]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D4" unique_id=1462331285]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D4" unique_id=1342604655]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D4" unique_id=2026761256]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D4" unique_id=1635469598]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D4" unique_id=1029630760]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D4" unique_id=962512470]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D4" unique_id=358218699]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D4" unique_id=1335962936]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D4" unique_id=1245118782]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D/Node2D4" unique_id=1151048354]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D2" unique_id=578416984]
+position = Vector2(408.6667, 206)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D2/Node2D2" unique_id=278012072]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D" unique_id=20889754]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D" unique_id=2049408609]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D" unique_id=661245961]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D" unique_id=2068589974]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D" unique_id=453840075]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D" unique_id=2055098145]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D" unique_id=1954748611]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D" unique_id=557217213]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D" unique_id=507179120]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D" unique_id=1829181565]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D" unique_id=3227633]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D2/Node2D2" unique_id=765893922]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D2" unique_id=787296153]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D2" unique_id=1135211626]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D2" unique_id=1339697060]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D2" unique_id=295505385]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D2" unique_id=1968218134]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D2" unique_id=2056961495]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D2" unique_id=305748608]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D2" unique_id=664053827]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D2" unique_id=1763051976]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D2" unique_id=599787321]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D2" unique_id=1821253555]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D2/Node2D2" unique_id=19855547]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D3" unique_id=1112266279]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D3" unique_id=261836293]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D3" unique_id=258724410]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D3" unique_id=1737986679]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D3" unique_id=1810011589]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D3" unique_id=415274063]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D3" unique_id=1957490710]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D3" unique_id=1560321408]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D3" unique_id=1197577347]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D3" unique_id=1852601050]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D3" unique_id=895804045]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D2/Node2D2" unique_id=913450579]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D4" unique_id=489660985]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D4" unique_id=1019159359]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D4" unique_id=2012065317]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D4" unique_id=275102400]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D4" unique_id=1679852012]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D4" unique_id=733507759]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D4" unique_id=1177428313]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D4" unique_id=256391816]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D4" unique_id=719997753]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D4" unique_id=1761357428]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D2/Node2D4" unique_id=1394762618]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D2" unique_id=1823848611]
+position = Vector2(421.33334, 195.33334)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D2/Node2D3" unique_id=1828269737]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D" unique_id=1085834916]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D" unique_id=1235256178]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D" unique_id=937041924]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D" unique_id=49516504]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D" unique_id=1428007476]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D" unique_id=1199289976]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D" unique_id=2016127357]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D" unique_id=1761367918]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D" unique_id=1923544372]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D" unique_id=928681635]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D" unique_id=722250228]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D2/Node2D3" unique_id=1778529923]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D2" unique_id=906275165]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D2" unique_id=1820221405]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D2" unique_id=1478443820]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D2" unique_id=310091661]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D2" unique_id=1129892604]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D2" unique_id=1780047624]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D2" unique_id=1338996671]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D2" unique_id=2027982929]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D2" unique_id=801942165]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D2" unique_id=1183558317]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D2" unique_id=1521279285]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D2/Node2D3" unique_id=691557619]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D3" unique_id=2035910553]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D3" unique_id=1769368482]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D3" unique_id=318754078]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D3" unique_id=1107810457]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D3" unique_id=1512527509]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D3" unique_id=1841787025]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D3" unique_id=1050708244]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D3" unique_id=1399566798]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D3" unique_id=1961243844]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D3" unique_id=553847327]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D3" unique_id=1708496742]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D2/Node2D3" unique_id=901968137]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D4" unique_id=1223352587]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D4" unique_id=1235307646]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D4" unique_id=1983246202]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D4" unique_id=89981709]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D4" unique_id=835888366]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D4" unique_id=284107660]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D4" unique_id=1023406219]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D4" unique_id=777939580]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D4" unique_id=1285114728]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D4" unique_id=24574062]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D3/Node2D4" unique_id=712366489]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D2" unique_id=249073408]
+position = Vector2(405.00003, 185)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D2/Node2D4" unique_id=1284389705]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D" unique_id=778511487]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D" unique_id=1167520411]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D" unique_id=976202571]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D" unique_id=301221915]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D" unique_id=1007208447]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D" unique_id=1113104376]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D" unique_id=249670959]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D" unique_id=967287321]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D" unique_id=1031468368]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D" unique_id=231117657]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D" unique_id=732320147]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D2/Node2D4" unique_id=1018772038]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D2" unique_id=1306343383]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D2" unique_id=1481832763]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D2" unique_id=2142657135]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D2" unique_id=1223868368]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D2" unique_id=427275633]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D2" unique_id=1986443073]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D2" unique_id=495806336]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D2" unique_id=614618268]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D2" unique_id=738531140]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D2" unique_id=2142926446]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D2" unique_id=509515008]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D2/Node2D4" unique_id=1414279069]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D3" unique_id=1625771819]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D3" unique_id=781217580]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D3" unique_id=1999945450]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D3" unique_id=1752199329]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D3" unique_id=1628776488]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D3" unique_id=914546021]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D3" unique_id=1133580661]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D3" unique_id=1758085876]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D3" unique_id=200498136]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D3" unique_id=538241053]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D3" unique_id=1224888871]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D2/Node2D4" unique_id=367037326]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D4" unique_id=869775132]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D4" unique_id=539653061]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D4" unique_id=63440104]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D4" unique_id=2009203568]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D4" unique_id=1894447808]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D4" unique_id=1090428828]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D4" unique_id=1883030614]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D4" unique_id=393293647]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D4" unique_id=1241990430]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D4" unique_id=1706298510]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D4/Node2D4" unique_id=1675541723]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D5" type="Node2D" parent="slide/slide/Node2D2" unique_id=38468906]
+position = Vector2(418.00003, 174)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D2/Node2D5" unique_id=1391409643]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D" unique_id=2084395054]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D" unique_id=572859746]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D" unique_id=335495954]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D" unique_id=1394795891]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D" unique_id=421083585]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D" unique_id=909992606]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D" unique_id=833452177]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D" unique_id=793143359]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D" unique_id=1585960652]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D" unique_id=1854601522]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D" unique_id=1192525111]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D2/Node2D5" unique_id=1721019437]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D2" unique_id=1288397192]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D2" unique_id=79669543]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D2" unique_id=1012731396]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D2" unique_id=1800542629]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D2" unique_id=1251861756]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D2" unique_id=1736370745]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D2" unique_id=1090258477]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D2" unique_id=1902723261]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D2" unique_id=1926725572]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D2" unique_id=722051128]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D2" unique_id=1175041081]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D2/Node2D5" unique_id=625091025]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D3" unique_id=2136594927]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D3" unique_id=2123710149]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D3" unique_id=1665264437]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D3" unique_id=687959069]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D3" unique_id=204242836]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D3" unique_id=2138519521]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D3" unique_id=2073261322]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D3" unique_id=1763175312]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D3" unique_id=2011786608]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D3" unique_id=303252088]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D3" unique_id=568266288]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D2/Node2D5" unique_id=1117941895]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D4" unique_id=1339501821]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D4" unique_id=1652896781]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D4" unique_id=799853511]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D4" unique_id=283268810]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D4" unique_id=856079052]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D4" unique_id=9251221]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D4" unique_id=943200384]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D4" unique_id=2133262289]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D4" unique_id=876191256]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D4" unique_id=1056447231]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D5/Node2D4" unique_id=1824840759]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D6" type="Node2D" parent="slide/slide/Node2D2" unique_id=439443086]
+position = Vector2(421.6667, 164)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D2/Node2D6" unique_id=1768133871]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D" unique_id=2051294034]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D" unique_id=848171538]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D" unique_id=466751872]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D" unique_id=2103686704]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D" unique_id=1010017697]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D" unique_id=1279648770]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D" unique_id=1077119258]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D" unique_id=1549322002]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D" unique_id=948958762]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D" unique_id=2061867709]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D" unique_id=441007081]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D2/Node2D6" unique_id=1069884485]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D2" unique_id=205697042]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D2" unique_id=679754134]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D2" unique_id=1998011994]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D2" unique_id=1864705155]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D2" unique_id=1800275716]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D2" unique_id=1409025429]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D2" unique_id=503569831]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D2" unique_id=1748268025]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D2" unique_id=1583638829]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D2" unique_id=1063165124]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D2" unique_id=1891120105]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D2/Node2D6" unique_id=263360010]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D3" unique_id=1376716791]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D3" unique_id=2006674735]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D3" unique_id=732483289]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D3" unique_id=901906825]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D3" unique_id=1937123077]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D3" unique_id=1237619829]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D3" unique_id=901874634]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D3" unique_id=577454133]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D3" unique_id=377124075]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D3" unique_id=489979936]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D3" unique_id=358760196]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D2/Node2D6" unique_id=764885832]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D4" unique_id=190971009]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D4" unique_id=2108614300]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D4" unique_id=743123911]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D4" unique_id=1391020524]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D4" unique_id=1314728910]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D4" unique_id=727659823]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D4" unique_id=438678473]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D4" unique_id=1034770343]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D4" unique_id=2058892458]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D4" unique_id=38732144]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D6/Node2D4" unique_id=850157267]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D7" type="Node2D" parent="slide/slide/Node2D2" unique_id=772815666]
+position = Vector2(417.00003, 153.33334)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D2/Node2D7" unique_id=1600338296]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D" unique_id=319107085]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D" unique_id=742837628]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D" unique_id=715563578]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D" unique_id=2037213484]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D" unique_id=2093332637]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D" unique_id=611876]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D" unique_id=1327040139]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D" unique_id=1158640389]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D" unique_id=806702771]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D" unique_id=911281764]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D" unique_id=2018764926]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D2/Node2D7" unique_id=2043191529]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D2" unique_id=1167300917]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D2" unique_id=1432878455]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D2" unique_id=520604393]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D2" unique_id=1876700178]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D2" unique_id=2007397291]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D2" unique_id=513022582]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D2" unique_id=1638590991]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D2" unique_id=388380518]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D2" unique_id=1234202588]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D2" unique_id=1303120912]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D2" unique_id=1934927637]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D2/Node2D7" unique_id=1718413430]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D3" unique_id=1430673219]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D3" unique_id=500937374]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D3" unique_id=1307080096]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D3" unique_id=1133794180]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D3" unique_id=1306874376]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D3" unique_id=1421989903]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D3" unique_id=1184971572]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D3" unique_id=927566267]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D3" unique_id=341449646]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D3" unique_id=275885931]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D3" unique_id=604258364]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D2/Node2D7" unique_id=465123061]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D4" unique_id=967696796]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D4" unique_id=851822013]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D4" unique_id=76445100]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D4" unique_id=791511431]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D4" unique_id=921254015]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D4" unique_id=1067108607]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D4" unique_id=1183313376]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D4" unique_id=1374831239]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D4" unique_id=329527611]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D4" unique_id=646604155]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D2/Node2D7/Node2D4" unique_id=1763259050]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide" unique_id=134228591]
+position = Vector2(18, -221)
+scale = Vector2(3, 3)
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D3" unique_id=275804650]
+position = Vector2(417.33334, 216.33334)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D3/Node2D" unique_id=1943782149]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D" unique_id=1466514132]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D" unique_id=655579545]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D" unique_id=1926729982]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D" unique_id=1757702266]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D" unique_id=263024488]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D" unique_id=606422907]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D" unique_id=745804592]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D" unique_id=840591157]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D" unique_id=759224720]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D" unique_id=826122602]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D" unique_id=1809669030]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D3/Node2D" unique_id=502745988]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D2" unique_id=2102800496]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D2" unique_id=1943192825]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D2" unique_id=1000902639]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D2" unique_id=1837928877]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D2" unique_id=764400704]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D2" unique_id=1802148992]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D2" unique_id=442504823]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D2" unique_id=427245634]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D2" unique_id=596959195]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D2" unique_id=1187836510]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D2" unique_id=671823814]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D3/Node2D" unique_id=1981287279]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D3" unique_id=183618973]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D3" unique_id=1902643563]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D3" unique_id=1663212744]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D3" unique_id=2122731376]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D3" unique_id=700790172]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D3" unique_id=1871990522]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D3" unique_id=751668793]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D3" unique_id=625063689]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D3" unique_id=1867182783]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D3" unique_id=634324909]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D3" unique_id=2023320544]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D3/Node2D" unique_id=772970481]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D4" unique_id=1214724127]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D4" unique_id=951498916]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D4" unique_id=1465727921]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D4" unique_id=1427490318]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D4" unique_id=3361455]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D4" unique_id=1464808836]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D4" unique_id=659120695]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D4" unique_id=582995375]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D4" unique_id=148372532]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D4" unique_id=1243994092]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D/Node2D4" unique_id=1854171852]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D3" unique_id=211777411]
+position = Vector2(408.6667, 206)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D3/Node2D2" unique_id=2091912565]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D" unique_id=1458739105]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D" unique_id=1879620775]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D" unique_id=408453852]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D" unique_id=1354113280]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D" unique_id=557417876]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D" unique_id=1395108615]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D" unique_id=912887799]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D" unique_id=1903869051]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D" unique_id=2113595191]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D" unique_id=1830244258]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D" unique_id=212033747]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D3/Node2D2" unique_id=1911014293]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D2" unique_id=1572724142]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D2" unique_id=1068760885]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D2" unique_id=1662772888]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D2" unique_id=2035269687]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D2" unique_id=998592628]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D2" unique_id=1070411811]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D2" unique_id=1895688978]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D2" unique_id=345449166]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D2" unique_id=443341848]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D2" unique_id=925284537]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D2" unique_id=1861709071]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D3/Node2D2" unique_id=10876524]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D3" unique_id=1652488856]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D3" unique_id=2081639251]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D3" unique_id=2052690092]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D3" unique_id=533532513]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D3" unique_id=69326842]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D3" unique_id=1508554957]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D3" unique_id=819712706]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D3" unique_id=1762396920]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D3" unique_id=1538288391]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D3" unique_id=601796700]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D3" unique_id=1699619367]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D3/Node2D2" unique_id=1354178479]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D4" unique_id=934699735]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D4" unique_id=809039867]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D4" unique_id=1018854534]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D4" unique_id=1939413660]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D4" unique_id=1915930244]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D4" unique_id=886469051]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D4" unique_id=597484022]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D4" unique_id=651333552]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D4" unique_id=102997351]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D4" unique_id=596009413]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D2/Node2D4" unique_id=1583873159]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D3" unique_id=576931870]
+position = Vector2(421.33334, 195.33334)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D3/Node2D3" unique_id=1542774023]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D" unique_id=1765596705]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D" unique_id=1060580023]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D" unique_id=366861054]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D" unique_id=1684573139]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D" unique_id=1013592731]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D" unique_id=111473402]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D" unique_id=406779286]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D" unique_id=270042554]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D" unique_id=1497550317]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D" unique_id=718868]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D" unique_id=1255070360]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D3/Node2D3" unique_id=615785691]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D2" unique_id=136175069]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D2" unique_id=576467880]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D2" unique_id=207921369]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D2" unique_id=661699162]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D2" unique_id=1258978113]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D2" unique_id=605015247]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D2" unique_id=2037665186]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D2" unique_id=1674899235]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D2" unique_id=1072467425]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D2" unique_id=612211119]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D2" unique_id=992025762]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D3/Node2D3" unique_id=1937636054]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D3" unique_id=2113765068]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D3" unique_id=1811229310]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D3" unique_id=804345007]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D3" unique_id=663773478]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D3" unique_id=1586872106]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D3" unique_id=1224140164]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D3" unique_id=1444165513]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D3" unique_id=996815757]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D3" unique_id=778045857]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D3" unique_id=1835970027]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D3" unique_id=1378548701]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D3/Node2D3" unique_id=1962732050]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D4" unique_id=1015326511]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D4" unique_id=143042522]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D4" unique_id=1986755124]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D4" unique_id=1978658446]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D4" unique_id=461996071]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D4" unique_id=156535614]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D4" unique_id=694648555]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D4" unique_id=1265321853]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D4" unique_id=770359411]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D4" unique_id=1236256744]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D3/Node2D4" unique_id=2116789349]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D3" unique_id=1656928829]
+position = Vector2(405.00003, 185)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D3/Node2D4" unique_id=1060119241]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D" unique_id=1968913212]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D" unique_id=636683378]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D" unique_id=747760123]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D" unique_id=321472207]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D" unique_id=1156305510]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D" unique_id=357233339]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D" unique_id=67864347]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D" unique_id=168935781]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D" unique_id=1236688186]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D" unique_id=1311553122]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D" unique_id=941380893]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D3/Node2D4" unique_id=1187583]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D2" unique_id=395284960]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D2" unique_id=1771298370]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D2" unique_id=385410640]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D2" unique_id=1623376607]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D2" unique_id=1271122057]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D2" unique_id=1548700502]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D2" unique_id=1323699843]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D2" unique_id=1530694251]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D2" unique_id=177199459]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D2" unique_id=1068055263]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D2" unique_id=1700209513]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D3/Node2D4" unique_id=373486597]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D3" unique_id=1990430045]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D3" unique_id=1846565423]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D3" unique_id=1732949643]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D3" unique_id=2134440497]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D3" unique_id=1374532359]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D3" unique_id=1112410213]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D3" unique_id=1648653479]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D3" unique_id=683239468]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D3" unique_id=1179339523]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D3" unique_id=152945245]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D3" unique_id=1921239435]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D3/Node2D4" unique_id=983915312]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D4" unique_id=708408782]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D4" unique_id=370855651]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D4" unique_id=1463748332]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D4" unique_id=258871556]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D4" unique_id=751135239]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D4" unique_id=333366713]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D4" unique_id=1113768400]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D4" unique_id=2117948051]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D4" unique_id=1612855571]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D4" unique_id=574817215]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D4/Node2D4" unique_id=651697629]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D5" type="Node2D" parent="slide/slide/Node2D3" unique_id=1360134427]
+position = Vector2(418.00003, 174)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D3/Node2D5" unique_id=1650610578]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D" unique_id=812388661]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D" unique_id=1430291574]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D" unique_id=1109994445]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D" unique_id=1168135906]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D" unique_id=872113149]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D" unique_id=671262382]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D" unique_id=1917212661]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D" unique_id=1185310962]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D" unique_id=626131433]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D" unique_id=460803788]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D" unique_id=695372352]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D3/Node2D5" unique_id=2124007607]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D2" unique_id=779433124]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D2" unique_id=1401825761]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D2" unique_id=1182313832]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D2" unique_id=769593053]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D2" unique_id=678542065]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D2" unique_id=478820955]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D2" unique_id=1640557380]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D2" unique_id=541573557]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D2" unique_id=426225612]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D2" unique_id=918495477]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D2" unique_id=1681797518]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D3/Node2D5" unique_id=953605601]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D3" unique_id=2013355422]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D3" unique_id=538053219]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D3" unique_id=1018068104]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D3" unique_id=1238056372]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D3" unique_id=1373835165]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D3" unique_id=463074047]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D3" unique_id=1326594454]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D3" unique_id=1220572275]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D3" unique_id=264702228]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D3" unique_id=111797351]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D3" unique_id=339918291]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D3/Node2D5" unique_id=1136618547]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D4" unique_id=1421116902]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D4" unique_id=71211490]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D4" unique_id=1552554191]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D4" unique_id=1700753210]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D4" unique_id=1973589228]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D4" unique_id=1676541651]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D4" unique_id=1295719971]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D4" unique_id=1939224182]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D4" unique_id=39414102]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D4" unique_id=1978541131]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D5/Node2D4" unique_id=1357602325]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D6" type="Node2D" parent="slide/slide/Node2D3" unique_id=1214376871]
+position = Vector2(421.6667, 164)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D3/Node2D6" unique_id=1434096909]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D" unique_id=943728472]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D" unique_id=984807739]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D" unique_id=1250308955]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D" unique_id=1700107523]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D" unique_id=529102702]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D" unique_id=1658838287]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D" unique_id=1130790658]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D" unique_id=860451756]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D" unique_id=1415016970]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D" unique_id=846329503]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D" unique_id=1791377658]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D3/Node2D6" unique_id=594395967]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D2" unique_id=1820953082]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D2" unique_id=1464064804]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D2" unique_id=1811115824]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D2" unique_id=2069754318]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D2" unique_id=38775122]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D2" unique_id=1259534652]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D2" unique_id=1569499561]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D2" unique_id=1976189772]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D2" unique_id=402420357]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D2" unique_id=1093367324]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D2" unique_id=1936220124]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D3/Node2D6" unique_id=1635304186]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D3" unique_id=1040881228]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D3" unique_id=1842510825]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D3" unique_id=1745112466]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D3" unique_id=387313785]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D3" unique_id=837500374]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D3" unique_id=1485322009]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D3" unique_id=851878512]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D3" unique_id=1304602597]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D3" unique_id=1413653834]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D3" unique_id=1994379330]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D3" unique_id=1797166864]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D3/Node2D6" unique_id=1519745850]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D4" unique_id=2100953458]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D4" unique_id=1221430038]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D4" unique_id=2005942318]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D4" unique_id=1209030890]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D4" unique_id=1225693376]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D4" unique_id=1307892233]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D4" unique_id=2126485078]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D4" unique_id=1846601188]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D4" unique_id=1276163471]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D4" unique_id=2069836894]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D6/Node2D4" unique_id=625120195]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D7" type="Node2D" parent="slide/slide/Node2D3" unique_id=1010728398]
+position = Vector2(417.00003, 153.33334)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D3/Node2D7" unique_id=84136301]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D" unique_id=2079457581]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D" unique_id=332410143]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D" unique_id=232923798]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D" unique_id=79882631]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D" unique_id=172707258]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D" unique_id=103811449]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D" unique_id=476340302]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D" unique_id=218564287]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D" unique_id=1316699115]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D" unique_id=1257846469]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D" unique_id=339666392]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D3/Node2D7" unique_id=934480236]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D2" unique_id=1653834164]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D2" unique_id=1698224570]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D2" unique_id=393345675]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D2" unique_id=894415419]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D2" unique_id=697280837]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D2" unique_id=384817206]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D2" unique_id=1545730292]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D2" unique_id=838249566]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D2" unique_id=1598516316]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D2" unique_id=789718805]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D2" unique_id=1213353432]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D3/Node2D7" unique_id=1765885715]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D3" unique_id=433219090]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D3" unique_id=1602618555]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D3" unique_id=1346782078]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D3" unique_id=1450358657]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D3" unique_id=1892393554]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D3" unique_id=930390348]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D3" unique_id=396296884]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D3" unique_id=2001464469]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D3" unique_id=653412372]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D3" unique_id=783057263]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D3" unique_id=1706264826]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D3/Node2D7" unique_id=940769745]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D4" unique_id=442886181]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D4" unique_id=1502638255]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D4" unique_id=295026088]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D4" unique_id=1414908444]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D4" unique_id=1432118022]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D4" unique_id=64643394]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D4" unique_id=242096751]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D4" unique_id=663876873]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D4" unique_id=1894813909]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D4" unique_id=1659603371]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D3/Node2D7/Node2D4" unique_id=1237128725]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide" unique_id=1131769343]
+position = Vector2(25, -439)
+scale = Vector2(3, 3)
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D4" unique_id=962697902]
+position = Vector2(417.33334, 216.33334)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D4/Node2D" unique_id=1290045643]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D" unique_id=341019112]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D" unique_id=24208324]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D" unique_id=198861532]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D" unique_id=1488907177]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D" unique_id=2033195529]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D" unique_id=1161389579]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D" unique_id=297861488]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D" unique_id=1700833786]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D" unique_id=2053303410]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D" unique_id=1282461606]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D" unique_id=1168986074]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D4/Node2D" unique_id=1574566664]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D2" unique_id=1478744480]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D2" unique_id=1366656245]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D2" unique_id=63753463]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D2" unique_id=54258360]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D2" unique_id=1556660535]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D2" unique_id=770771586]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D2" unique_id=1196976575]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D2" unique_id=1989151545]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D2" unique_id=1968044308]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D2" unique_id=8205781]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D2" unique_id=421791538]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D4/Node2D" unique_id=341778527]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D3" unique_id=1612439737]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D3" unique_id=31706334]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D3" unique_id=242984283]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D3" unique_id=1193480293]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D3" unique_id=1764974394]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D3" unique_id=1659021516]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D3" unique_id=296308256]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D3" unique_id=57708854]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D3" unique_id=1318080169]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D3" unique_id=71049681]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D3" unique_id=292179109]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D4/Node2D" unique_id=1928399026]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D4" unique_id=1411416555]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D4" unique_id=1926443543]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D4" unique_id=826777439]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D4" unique_id=337751726]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D4" unique_id=1211856941]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D4" unique_id=865443708]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D4" unique_id=853126205]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D4" unique_id=1108971045]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D4" unique_id=1182774682]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D4" unique_id=1354056955]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D/Node2D4" unique_id=934464273]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D4" unique_id=680508357]
+position = Vector2(408.6667, 206)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D4/Node2D2" unique_id=387640246]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D" unique_id=1283693411]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D" unique_id=951520250]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D" unique_id=473595181]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D" unique_id=1096981257]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D" unique_id=663323812]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D" unique_id=1815359598]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D" unique_id=699664075]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D" unique_id=1975613507]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D" unique_id=1892981678]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D" unique_id=1459912636]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D" unique_id=27427337]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D4/Node2D2" unique_id=1808571165]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D2" unique_id=1957115312]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D2" unique_id=225521497]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D2" unique_id=1145233488]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D2" unique_id=599360294]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D2" unique_id=1289573169]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D2" unique_id=2103891088]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D2" unique_id=1282199236]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D2" unique_id=1168249981]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D2" unique_id=632176040]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D2" unique_id=1602470384]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D2" unique_id=162828718]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D4/Node2D2" unique_id=215375368]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D3" unique_id=1170768118]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D3" unique_id=345837725]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D3" unique_id=390309730]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D3" unique_id=991721078]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D3" unique_id=1126913708]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D3" unique_id=1761062734]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D3" unique_id=725594634]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D3" unique_id=1318250601]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D3" unique_id=2022078681]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D3" unique_id=1885092954]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D3" unique_id=1532060392]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D4/Node2D2" unique_id=700650477]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D4" unique_id=1023883780]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D4" unique_id=607163056]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D4" unique_id=1404918008]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D4" unique_id=1329324724]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D4" unique_id=32529974]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D4" unique_id=2045799308]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D4" unique_id=727288019]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D4" unique_id=1494796589]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D4" unique_id=86312302]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D4" unique_id=442990750]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D2/Node2D4" unique_id=2145668948]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D4" unique_id=1634638215]
+position = Vector2(421.33334, 195.33334)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D4/Node2D3" unique_id=966862153]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D" unique_id=940385777]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D" unique_id=1839992709]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D" unique_id=628304775]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D" unique_id=1838227279]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D" unique_id=1042523259]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D" unique_id=1775110179]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D" unique_id=1955815803]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D" unique_id=1144328298]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D" unique_id=556925213]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D" unique_id=749427769]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D" unique_id=937791115]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D4/Node2D3" unique_id=88250799]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D2" unique_id=1274213676]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D2" unique_id=1599955610]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D2" unique_id=1624448023]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D2" unique_id=720268670]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D2" unique_id=540297660]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D2" unique_id=2115666708]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D2" unique_id=1893333438]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D2" unique_id=711952925]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D2" unique_id=75425941]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D2" unique_id=1427195997]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D2" unique_id=1576355282]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D4/Node2D3" unique_id=1989270598]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D3" unique_id=1320746766]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D3" unique_id=2018467255]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D3" unique_id=502126022]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D3" unique_id=72385733]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D3" unique_id=987255531]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D3" unique_id=1687410786]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D3" unique_id=1654827848]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D3" unique_id=1862878958]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D3" unique_id=86142419]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D3" unique_id=1740437450]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D3" unique_id=2004724543]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D4/Node2D3" unique_id=737642556]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D4" unique_id=1553980485]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D4" unique_id=63432050]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D4" unique_id=1065276033]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D4" unique_id=395720839]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D4" unique_id=2058627987]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D4" unique_id=1453707906]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D4" unique_id=1244262779]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D4" unique_id=1922827502]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D4" unique_id=1201327510]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D4" unique_id=1201383892]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D3/Node2D4" unique_id=1295049495]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D4" unique_id=2040236324]
+position = Vector2(405.00003, 185)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D4/Node2D4" unique_id=734678469]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D" unique_id=1856266802]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D" unique_id=1604344906]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D" unique_id=388859444]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D" unique_id=1374699174]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D" unique_id=727210201]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D" unique_id=178236327]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D" unique_id=1435735714]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D" unique_id=574915585]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D" unique_id=1231673124]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D" unique_id=925541569]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D" unique_id=1494265670]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D4/Node2D4" unique_id=1461873656]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D2" unique_id=1847757506]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D2" unique_id=1774195583]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D2" unique_id=1796221957]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D2" unique_id=178990357]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D2" unique_id=1458284745]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D2" unique_id=131917684]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D2" unique_id=1734142127]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D2" unique_id=663695960]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D2" unique_id=1875472275]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D2" unique_id=1838319674]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D2" unique_id=1741406832]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D4/Node2D4" unique_id=156550457]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D3" unique_id=854217156]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D3" unique_id=100104066]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D3" unique_id=887037842]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D3" unique_id=1463702551]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D3" unique_id=588337111]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D3" unique_id=1062766324]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D3" unique_id=431839097]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D3" unique_id=532486351]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D3" unique_id=1868309048]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D3" unique_id=590719409]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D3" unique_id=454973169]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D4/Node2D4" unique_id=1681839609]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D4" unique_id=1291666186]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D4" unique_id=156888508]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D4" unique_id=2010658422]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D4" unique_id=1663119117]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D4" unique_id=1737370832]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D4" unique_id=1581864575]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D4" unique_id=2142839350]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D4" unique_id=431274280]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D4" unique_id=444935710]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D4" unique_id=146402440]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D4/Node2D4" unique_id=1254474969]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D5" type="Node2D" parent="slide/slide/Node2D4" unique_id=1536939050]
+position = Vector2(418.00003, 174)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D4/Node2D5" unique_id=137718393]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D" unique_id=75541110]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D" unique_id=1308081826]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D" unique_id=523204339]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D" unique_id=302279714]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D" unique_id=1127348805]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D" unique_id=31334770]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D" unique_id=717421445]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D" unique_id=1808161632]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D" unique_id=209114169]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D" unique_id=867120774]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D" unique_id=1880721959]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D4/Node2D5" unique_id=1287794544]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D2" unique_id=2052891751]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D2" unique_id=2015812270]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D2" unique_id=514913651]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D2" unique_id=1660291040]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D2" unique_id=473652179]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D2" unique_id=340469828]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D2" unique_id=1010937635]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D2" unique_id=624888286]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D2" unique_id=843880999]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D2" unique_id=933629157]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D2" unique_id=2035125321]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D4/Node2D5" unique_id=1224046932]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D3" unique_id=870739129]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D3" unique_id=1991944534]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D3" unique_id=1059656700]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D3" unique_id=2050506915]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D3" unique_id=2033281600]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D3" unique_id=2138325719]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D3" unique_id=654557408]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D3" unique_id=1064630990]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D3" unique_id=1711138182]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D3" unique_id=887406647]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D3" unique_id=882919068]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D4/Node2D5" unique_id=184935199]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D4" unique_id=1700506893]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D4" unique_id=11587350]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D4" unique_id=284438021]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D4" unique_id=2046516714]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D4" unique_id=506661271]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D4" unique_id=928465053]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D4" unique_id=107334342]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D4" unique_id=1414494778]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D4" unique_id=1371412881]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D4" unique_id=816784460]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D5/Node2D4" unique_id=419593019]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D6" type="Node2D" parent="slide/slide/Node2D4" unique_id=144817963]
+position = Vector2(421.6667, 164)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D4/Node2D6" unique_id=1362175895]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D" unique_id=574261039]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D" unique_id=649932261]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D" unique_id=1213164406]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D" unique_id=995254799]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D" unique_id=1977662264]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D" unique_id=331021823]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D" unique_id=2099729103]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D" unique_id=587533063]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D" unique_id=370477781]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D" unique_id=1582052147]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D" unique_id=891105713]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D4/Node2D6" unique_id=2114874683]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D2" unique_id=1654683847]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D2" unique_id=841799372]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D2" unique_id=728681623]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D2" unique_id=381050438]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D2" unique_id=355598486]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D2" unique_id=1097224336]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D2" unique_id=1211994762]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D2" unique_id=1477114749]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D2" unique_id=1922812156]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D2" unique_id=1284738396]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D2" unique_id=1586502734]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D4/Node2D6" unique_id=117122464]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D3" unique_id=462379316]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D3" unique_id=942552605]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D3" unique_id=1996546315]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D3" unique_id=1853511142]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D3" unique_id=1180740359]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D3" unique_id=1310788452]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D3" unique_id=1824815684]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D3" unique_id=517222674]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D3" unique_id=985338090]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D3" unique_id=915594142]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D3" unique_id=733372973]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D4/Node2D6" unique_id=264775075]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D4" unique_id=667019364]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D4" unique_id=1586121797]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D4" unique_id=1447100219]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D4" unique_id=1525052042]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D4" unique_id=2031869818]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D4" unique_id=916540316]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D4" unique_id=736817479]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D4" unique_id=1619788509]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D4" unique_id=136898606]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D4" unique_id=519030720]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D6/Node2D4" unique_id=655019054]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D7" type="Node2D" parent="slide/slide/Node2D4" unique_id=1057644243]
+position = Vector2(417.00003, 153.33334)
+rotation = 3.1415927
+
+[node name="Node2D" type="Node2D" parent="slide/slide/Node2D4/Node2D7" unique_id=287451965]
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D" unique_id=1499692230]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D" unique_id=99679297]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D" unique_id=443071077]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D" unique_id=963771586]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D" unique_id=695022361]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D" unique_id=1951803518]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D" unique_id=967070830]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D" unique_id=533707268]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D" unique_id=2035462979]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D" unique_id=1377732074]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D" unique_id=1000890529]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D2" type="Node2D" parent="slide/slide/Node2D4/Node2D7" unique_id=203780243]
+position = Vector2(110, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D2" unique_id=1829621331]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D2" unique_id=392059509]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D2" unique_id=238401193]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D2" unique_id=1006625003]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D2" unique_id=1228389683]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D2" unique_id=1903200712]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D2" unique_id=307887560]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D2" unique_id=1130294996]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D2" unique_id=1251008736]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D2" unique_id=2079518747]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D2" unique_id=1077472485]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D3" type="Node2D" parent="slide/slide/Node2D4/Node2D7" unique_id=1539230353]
+position = Vector2(220, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D3" unique_id=650385395]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D3" unique_id=1430262695]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D3" unique_id=511207656]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D3" unique_id=1863308528]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D3" unique_id=877977052]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D3" unique_id=1299657550]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D3" unique_id=1883653255]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D3" unique_id=705757288]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D3" unique_id=1354314357]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D3" unique_id=1889158871]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D3" unique_id=1883770027]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="Node2D4" type="Node2D" parent="slide/slide/Node2D4/Node2D7" unique_id=731087878]
+position = Vector2(330, 0)
+
+[node name="PixilFrame0(6)" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D4" unique_id=149179358]
+position = Vector2(7, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)2" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D4" unique_id=2046739855]
+position = Vector2(17, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)3" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D4" unique_id=71927425]
+position = Vector2(27, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)4" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D4" unique_id=1371623850]
+position = Vector2(37, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)5" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D4" unique_id=128627036]
+position = Vector2(47, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)6" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D4" unique_id=1912711449]
+position = Vector2(57, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)7" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D4" unique_id=579249897]
+position = Vector2(67, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)8" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D4" unique_id=1986476339]
+position = Vector2(77, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)9" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D4" unique_id=1700585551]
+position = Vector2(87, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)10" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D4" unique_id=1760317564]
+position = Vector2(97, 4)
+texture = ExtResource("2_3d26k")
+
+[node name="PixilFrame0(6)11" type="Sprite2D" parent="slide/slide/Node2D4/Node2D7/Node2D4" unique_id=1154231824]
+position = Vector2(107, 4)
+texture = ExtResource("2_3d26k")
