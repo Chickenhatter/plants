@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://c3gptjqijfy1e"]
+
+[ext_resource type="Script" uid="uid://c58xu4set6yoy" path="res://code/end.gd" id="1_mwn6m"]
+
+[node name="Node2D" type="Node2D" unique_id=405920539]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1227996377]
+script = ExtResource("1_mwn6m")
+
+[node name="Node2D" type="Node2D" parent="Node2D" unique_id=37939982]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Node2D/Node2D" unique_id=1593022281]
+offset_left = -144.0
+offset_top = -67.0
+offset_right = 152.0
+offset_bottom = 305.0
+text = "And that is why us coders are not supposed to touch plants, you killed a plant after"
+
+[node name="Camera2D" type="Camera2D" parent="Node2D" unique_id=1591111680]
+zoom = Vector2(3, 3)
