@@ -32,14 +32,14 @@ func _process(delta: float) -> void:
 	if nitrogen_level > 0:
 		$Node2D/nitrogen.scale.y = nitrogen_level/100
 	else:
-		$Node2D/health.scale.y -= 0.00015
+		$Node2D/health.scale.y -= delta/30
 	if water_level > 100:
 		water_level = 100
 		$Node2D/health.scale.y -= 0.01
 	if water_level > 0:
 		$Node2D/water.scale.y = water_level/100
 	else:
-		$Node2D/health.scale.y -= 0.00015
+		$Node2D/health.scale.y -= delta/30
 	if $Node2D/health.scale.y < 0:
 		global.down = true
 
