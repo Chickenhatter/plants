@@ -2535,9 +2535,10 @@ position = Vector2(0.5, 12)
 shape = SubResource("RectangleShape2D_rjskk")
 
 [node name="Node2D" type="Node2D" parent="Node2D/character/Gardener" unique_id=2013257150]
-position = Vector2(0, 3)
+position = Vector2(-1, 3)
 
 [node name="Sprite2D" type="Sprite2D" parent="Node2D/character/Gardener/Node2D" unique_id=2097698045]
+z_index = 1
 position = Vector2(0, 8)
 texture = ExtResource("2_0748e")
 
@@ -2591,6 +2592,7 @@ position = Vector2(17, -1)
 texture = ExtResource("13_7bfc2")
 
 [node name="plant" type="Node2D" parent="Node2D" unique_id=950171415]
+z_index = -100
 position = Vector2(0, 64)
 
 [node name="Plant1" type="Node2D" parent="Node2D/plant" unique_id=1266826872]
@@ -11332,6 +11334,7 @@ z_index = 4096
 zoom = Vector2(2, 2)
 
 [node name="Node2D2" type="Node2D" parent="." unique_id=42015774]
+z_index = 2
 position = Vector2(0, -1000)
 script = ExtResource("30_0748e")
 

@@ -2,11 +2,15 @@ extends Node2D
 var up = true
 var down = false
 var minute = 0
+var second = 0
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	$"../slide".position.y = 0
 	global.gamemore = true
 	if int(round(global.timer)) > 60:
-		minute
+		minute = int(round(global.timer/60))
+		second = int(round(global.timer)) - 60 * minute
+		$Node2D/RichTextLabel.text = "And that is why us coders are not supposed to touch plants, you killed a plant after " + str(minute) + " minute and " + str(second) + " seconds"
 	else:
 		$Node2D/RichTextLabel.text = "And that is why us coders are not supposed to touch plants, you killed a plant after " + str(int(round(global.timer))) + " seconds"
 	await get_tree().create_timer(2).timeout

@@ -3,6 +3,13 @@ var slide = false
 var up = true
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	global.player_is_holding = "None"
+	global.character_position = false
+	global.player_in_plant = false
+	global.player_move = true
+	global.global_speed = 0.03
+	global.down = false
+	global.timer = 0
 	if global.gamemore == true:
 		$"../slide".position.y = 0
 		up = true
