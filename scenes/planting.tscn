@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bvbfkhb15svv0" path="res://code/summon.gd" id="1_m4bn8"]
 [ext_resource type="Script" uid="uid://by74oxqxva314" path="res://code/gardener.gd" id="1_yqlkl"]
-[ext_resource type="Texture2D" uid="uid://clqjvd54rarer" path="res://icon.svg" id="3_0u8u0"]
+[ext_resource type="Texture2D" uid="uid://b36rx7y26m1k7" path="res://assets/character.png" id="2_0748e"]
 [ext_resource type="Script" uid="uid://cuglktjf1psw6" path="res://code/plant_1.gd" id="3_n0q0x"]
 [ext_resource type="Texture2D" uid="uid://b8svuluhh2wp6" path="res://assets/water/pixil-frame-0(8).png" id="4_6ka5p"]
 [ext_resource type="Script" uid="uid://dyff6d8m3pjx4" path="res://code/plant_2.gd" id="4_haov4"]
@@ -32,6 +32,7 @@
 [ext_resource type="Script" uid="uid://e8hjb78gykko" path="res://code/leaves.gd" id="30_0748e"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rjskk"]
+size = Vector2(25, 30)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m4bn8"]
 
@@ -2526,15 +2527,19 @@ sources/3 = SubResource("TileSetAtlasSource_agfrk")
 [node name="character" type="Node2D" parent="Node2D" unique_id=393652341]
 
 [node name="Gardener" type="CharacterBody2D" parent="Node2D/character" unique_id=13888977]
+position = Vector2(0, -3)
 script = ExtResource("1_yqlkl")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/character/Gardener" unique_id=1285487252]
+position = Vector2(0.5, 12)
 shape = SubResource("RectangleShape2D_rjskk")
 
-[node name="Sprite2D" type="Sprite2D" parent="Node2D/character/Gardener" unique_id=1380375401]
-position = Vector2(5.5, 7.1525574e-07)
-scale = Vector2(0.07031251, 0.15625)
-texture = ExtResource("3_0u8u0")
+[node name="Node2D" type="Node2D" parent="Node2D/character/Gardener" unique_id=2013257150]
+position = Vector2(0, 3)
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D/character/Gardener/Node2D" unique_id=2097698045]
+position = Vector2(0, 8)
+texture = ExtResource("2_0748e")
 
 [node name="place" type="Node2D" parent="Node2D" unique_id=1029829069]
 position = Vector2(-31.000006, -6.999998)
@@ -11327,6 +11332,7 @@ z_index = 4096
 zoom = Vector2(2, 2)
 
 [node name="Node2D2" type="Node2D" parent="." unique_id=42015774]
+position = Vector2(0, -1000)
 script = ExtResource("30_0748e")
 
 [node name="slide" type="Node2D" parent="Node2D2" unique_id=698622109]

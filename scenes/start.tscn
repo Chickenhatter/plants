@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://n63h0g5gb5c5" path="res://code/start.gd" id="1_jaeev"]
 [ext_resource type="Texture2D" uid="uid://6tx4k2hpfw21" path="res://assets/back/pixil-frame-0 (6).png" id="2_u80x2"]
+[ext_resource type="Texture2D" uid="uid://d1yaqt4b7hy03" path="res://assets/start.png" id="3_bodal"]
 
 [node name="Node2D" type="Node2D" unique_id=1307140666]
 
@@ -11,10 +12,12 @@
 script = ExtResource("1_jaeev")
 
 [node name="start" type="Button" parent="Node2D/Node2D" unique_id=3497962]
-offset_left = 274.0
-offset_top = 169.0
-offset_right = 904.0
-offset_bottom = 405.0
+self_modulate = Color(0.011764706, 0.011764706, 0.011764706, 0)
+z_index = 10
+offset_left = 261.0
+offset_top = 171.0
+offset_right = 863.0
+offset_bottom = 398.0
 
 [node name="Node2D3" type="Node2D" parent="Node2D" unique_id=2116436745]
 
@@ -4049,6 +4052,7 @@ position = Vector2(107, 4)
 texture = ExtResource("2_u80x2")
 
 [node name="slide" type="Node2D" parent="Node2D" unique_id=708555704]
+z_index = 100
 position = Vector2(0, -1000)
 
 [node name="slide" type="Node2D" parent="Node2D/slide" unique_id=1205698728]
@@ -8076,5 +8080,10 @@ texture = ExtResource("2_u80x2")
 [node name="PixilFrame0(6)11" type="Sprite2D" parent="Node2D/slide/slide/Node2D4/Node2D7/Node2D4" unique_id=1820765537]
 position = Vector2(107, 4)
 texture = ExtResource("2_u80x2")
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D" unique_id=330290833]
+position = Vector2(602, 330)
+scale = Vector2(11.355, 11.355)
+texture = ExtResource("3_bodal")
 
 [connection signal="pressed" from="Node2D/Node2D/start" to="Node2D/Node2D" method="_on_start_pressed"]
