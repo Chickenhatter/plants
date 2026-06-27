@@ -11,4 +11,4 @@
 <p>This game is called gardening for coders</p>
 <p>One issue you may encounter which is hard to pull off is that eventually you would theoretically see the bar of the plant go below the pot but this is theoretical</p>
 <p>You can play this on itch.io</p>
-<img src="https://github.com/Chickenhatter/pants/blob/main/image.png">
+<img src="https://github.com/Chickenhatter/plants/blob/main/image.png">
